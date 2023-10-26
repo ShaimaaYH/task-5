@@ -1,0 +1,354 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+/* ==========Header========== */
+
+/* start nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5.124vw;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.nav .left {
+  color: #054c73;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 45px;
+}
+.nav .right ul {
+  list-style: none;
+  display: flex;
+  gap: 61px;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 61px;
+}
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+.nav .right .nav-menu {
+  display: none;
+  border: none;
+  margin: 50px 0px;
+}
+/* end nav*/
+
+/* start hero */
+.hero {
+  height: calc(649px - 61px);
+  background-image: url("/assets/images/background-nav.png");
+  background-position: center;
+  display: flex;
+  justify-content: end;
+}
+.hero .info {
+  position: absolute;
+  background-color: #dfe9f4;
+  top: 130px;
+  padding: 7.704vh 2.928vw;
+  line-height: 30px;
+  max-width: 643px;
+  height: 420px;
+}
+
+.hero .about span {
+  font-weight: 600;
+}
+.hero .info h1 {
+  color: #054c73;
+  font-size: 2.5rem;
+  line-height: 10.1vh;
+  max-width: 300px;
+}
+.hero .info p {
+  padding-bottom: 30px;
+  font-size: 1.125rem;
+}
+.buy {
+  background-color: #054c73;
+  border-radius: 50rem;
+  width: 253px;
+  height: 68px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+.end-hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f2f5ff;
+  min-height: 149px;
+  padding: 40px 70px;
+}
+.end-hero .info {
+  text-align: left;
+  max-width: 100%;
+  line-height: 30px;
+  color: #333333;
+}
+
+.end-hero img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  transform: translate(-130%, -10%);
+}
+
+.end-hero p {
+  color: #666;
+}
+/* end hero*/
+/* ==========Header========== */
+
+/* ==========Main=========== */
+/* section-1 */
+.section-1 .title,
+.section-3 .title,
+.section-4 .title {
+  text-align: center;
+  padding: 40px 0;
+}
+.section-1 h1,
+.section-2 h1,
+.section-3 h1,
+.section-4 h1,
+.section-5 h1 {
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  color: #333333;
+}
+.section-1 p,
+.section-3 p,
+.section-4 p {
+  color: #666;
+  font-size: 1.3rem;
+  max-width: 410px;
+  margin: auto;
+}
+.section-1 .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 49.6px;
+}
+.section-1 img,
+.section-3 img {
+  max-width: 300px;
+}
+.section-1 .images span {
+  transform: translateY(-30px);
+}
+
+/* section-2 */
+.section-2,
+.section-3 {
+  padding-top: 129.7px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.section-2 .title,
+.section-4 .info {
+  max-width: 345px;
+  padding: 0 20px;
+}
+.section-2 p {
+  padding-bottom: 40px;
+  color: #666;
+  max-width: 410px;
+}
+.section-2 .line {
+  line-height: 34px;
+  padding-bottom: 16px;
+}
+.section-2 img,
+.section-3 img {
+  max-width: 100%;
+}
+/* section-3 */
+.section-3 {
+  border-bottom: 1px solid #d7d6d6;
+  padding-bottom: 100.5px;
+  width: 100%;
+}
+.section-3 .cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 31.5px;
+  padding: 0 20px;
+}
+.section-3 .cards p {
+  text-align: center;
+  font-weight: 600;
+  color: #333333;
+  padding-top: 30px;
+}
+/* section-4 */
+.section-4 .cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 31.5px;
+  padding: 0 20px;
+}
+.section-4 .info {
+  text-align: center;
+  padding: 60px 20px;
+}
+.section-4 .cards .style {
+  position: relative;
+}
+.section-4 .cards .number {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  border-radius: 50%;
+}
+.section-4 .number p {
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+}
+.section-4 .cards img {
+  width: 100%;
+}
+/* section-5 */
+.section-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 418px;
+  background-color: #f2f5ff;
+  padding: 0 20px;
+}
+.section-5 .info {
+  text-align: center;
+  max-width: 400px;
+  line-height: 39px;
+}
+.section-5 p {
+  color: #666;
+  padding-bottom: 50px;
+  font-size: 15px;
+}
+.section-5 form input {
+  width: 380.583px;
+  height: 76.745px;
+  margin-bottom: 18px;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+.section-5 form input::placeholder {
+  text-align: left;
+  padding-left: 29.04px;
+}
+.section-5 button {
+  width: 149.27px;
+  height: 76.745px;
+  background-color: #054c73;
+  color: white;
+  border: none;
+  transform: translateX(-10px);
+}
+
+/* ==========Footer========== */
+.footer {
+  min-height: 465px;
+  background-color: #03344f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 70px;
+  font-size: 15px;
+}
+footer .left {
+  max-width: 410px;
+  padding-top: 20px;
+}
+
+.footer h1 {
+  padding-bottom: 20px;
+}
+.footer .left .info {
+  text-align: left;
+}
+.footer .left p {
+  line-height: 35px;
+}
+.footer .right h1 {
+  text-align: right;
+}
+.footer .images img {
+  padding: 0 0 10px 20px;
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+  .nav .right ul {
+    display: none;
+  }
+  .nav .right .nav-menu {
+    display: block;
+  }
+  .hero .info {
+    background: none;
+    text-align: center;
+  }
+  .hero .info h1 {
+    font-size: 2rem;
+    margin: auto;
+  }
+  .end-hero {
+    gap: 60px;
+    justify-content: center;
+  }
+
+  .section-4 .info {
+    text-align: left;
+  }
+
+  .section-5 input,
+  .section-5 button {
+    max-width: 300px;
+    height: 51px;
+  }
+  form {
+    max-width: min-content;
+    text-align: center;
+  }
+  .footer {
+    padding: 20px;
+  }
+  .footer .right h1,
+  .footer .info {
+    text-align: left;
+  }
+}
